@@ -72,6 +72,7 @@ background-image: linear-gradient(
 	);
    color:transparent;
    -webkit-background-clip:text;
+   background-clip: text;
 }
 
 .cyber{
@@ -95,6 +96,7 @@ background-image: linear-gradient(
 	);
    color:transparent;
    -webkit-background-clip:text;
+    background-clip: text;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,900&display=swap');
@@ -134,6 +136,7 @@ h4-try::before {
     rgb(255, 231, 182) 4px
   );
   -webkit-background-clip: text;
+   background-clip: text;
   top: 0px;
   left: 0;
   z-index: -1;
@@ -152,6 +155,7 @@ h4-try::after {
     rgb(0, 0, 0) 4px
   );
   -webkit-background-clip: text;
+   background-clip: text;
   top: 0px;
   left: 0px;
   transition: 1s;
@@ -363,6 +367,7 @@ float: right;
 	);
    color:transparent;
    -webkit-background-clip:text;
+    background-clip: text;
     text-transform: uppercase;
     font-size: 40px;
     font-weight: 600;
@@ -906,7 +911,7 @@ float: right;
     margin-bottom: 0; }
 
 .blog-share-wrapper {
-  float: right;
+  
   display: inline-block;
   margin: 0 -5px; }
   .blog-share-wrapper .blog-share {
